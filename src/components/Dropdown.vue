@@ -29,8 +29,9 @@
     <div class = "hasil">
       <h3>Preview Alamat</h3>
       <p v-if="pilih_provinsi&&pilih_kota&&pilih_kecamatan">
-          Nama {{iNama}}, Alamat {{textAlamat}},
-          Kecamatan {{ pilih_kecamatan }}, {{ pilih_kota }}, Provinsi {{ pilih_provinsi }}
+          Nama: {{iNama}}
+          <br/><br/> 
+          Alamat: {{textAlamat}},Kecamatan {{ pilih_kecamatan }}, {{ pilih_kota }}, Provinsi {{ pilih_provinsi }}
           <br /><br />
       </p>
     </div>
@@ -143,21 +144,22 @@ export default {
   padding: 20px;
   width: 700px;
   margin-bottom: 10px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 #444888;
   border-radius: 5px;
   text-align: center;
-  background-color: #f5f5f5;
+  background-color: #CAC0F1;
   margin-left: auto;
   margin-right: auto;
 }
 .hasil {
   width: 700px;
   padding: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 #444888;
   border-radius: 5px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  background-color: #CAC0F1;
 }
 .drop-item {
   width: 600px;
