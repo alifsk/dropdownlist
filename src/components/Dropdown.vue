@@ -24,7 +24,6 @@
           <option value="">-- Pilih Kecamatan --</option>
           <option v-for="kec in kecamatan" :value="kec" :key="kec">{{ kec }}</option>
       </select>
-      <p>Your result will be automatically shown at the card below</p>
     </div>
     <div class = "hasil">
       <h3>Preview Alamat</h3>
